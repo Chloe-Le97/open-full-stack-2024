@@ -24,6 +24,11 @@ const App = () => {
      1: 0, 
      2: 0, 
      3: 0, 
+     4: 0,
+     5: 0,
+     6: 0,
+     7: 0,
+     8: 0
   })
   const [mostVote, setMostVote] = useState(0);
 
@@ -40,7 +45,7 @@ const App = () => {
   }  
 
   const nextAnecdote = () =>{
-    const randomNumber = getRandomInt(3);
+    const randomNumber = getRandomInt(7);
     setSelected(randomNumber);
   }
   return (
